@@ -2,8 +2,15 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFrameworks>net6.0;net5.0;netcoreapp3.1</TargetFrameworks>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Description>
+        $(Description)
+
+        This is the NuGet/dotnet command line tool which will let you encode geometries as sets of geohashes on the command line.
+    </Description>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>polyhasher</ToolCommandName>	  
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,4 +29,8 @@
     <VsxmdAutoDeleteXml>True</VsxmdAutoDeleteXml>
     <DocumentationMarkdown>$(MSBuildProjectDirectory)\$(MSBuildProjectName).md</DocumentationMarkdown>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="./../../../media/logo/logo.png" Pack="true" Visible="true" PackagePath="" />
+  </ItemGroup>
 </Project>

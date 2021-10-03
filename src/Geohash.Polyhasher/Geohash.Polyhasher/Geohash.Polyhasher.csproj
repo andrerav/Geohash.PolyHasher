@@ -1,8 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net5.0</TargetFramework>
+		<TargetFrameworks>net6.0;net5.0;netcoreapp3.1;netstandard2.0</TargetFrameworks>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<Description>
+			$(Description)
+			
+			This is the NuGet library package which will let you encode geometries as sets of geohashes programmatically.
+		</Description>		
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -18,4 +23,8 @@
 		<VsxmdAutoDeleteXml>True</VsxmdAutoDeleteXml>
 		<DocumentationMarkdown>$(MSBuildProjectDirectory)\$(MSBuildProjectName).md</DocumentationMarkdown>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="./../../../media/logo/logo.png" Pack="true" Visible="true" PackagePath="" />
+	</ItemGroup>
 </Project>
