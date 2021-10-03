@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="vsxmd" Version="1.4.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Geohash.Polyhasher\Geohash.Polyhasher.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <VsxmdAutoDeleteXml>True</VsxmdAutoDeleteXml>
+    <DocumentationMarkdown>$(MSBuildProjectDirectory)\$(MSBuildProjectName).md</DocumentationMarkdown>
+  </PropertyGroup>
+</Project>
