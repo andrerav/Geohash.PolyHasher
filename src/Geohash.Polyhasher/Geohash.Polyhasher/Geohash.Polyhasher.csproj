@@ -21,7 +21,7 @@
 
 	<PropertyGroup>
 		<VsxmdAutoDeleteXml>True</VsxmdAutoDeleteXml>
-		<DocumentationMarkdown>$(MSBuildProjectDirectory)\$(MSBuildProjectName).md</DocumentationMarkdown>
+		<DocumentationMarkdown>$(MSBuildProjectDirectory)\README.md</DocumentationMarkdown>
 	</PropertyGroup>
 
 	<ItemGroup>
