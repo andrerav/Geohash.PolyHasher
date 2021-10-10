@@ -19,7 +19,26 @@ This library is useful if you are working with spatial data and need to make com
 
 # API Quickstart
 
-_TODO_
+The following example can be pasted directly into Program.cs in a .NET 6.0 or newer console application:
+
+```csharp
+using Geohash.Polyhasher;
+using NetTopologySuite.IO;
+
+// Define the polygon we wish to encode
+var polygon = new WKTReader().Read("MULTIPOLYGON (((40 40, 20 45, 45 30, 40 40)), " +
+                                   "((20 35, 45 20, 30 5, 10 10, 10 30, 20 35), " +
+                                   "(30 20, 20 25, 20 15, 30 20)))");
+
+// Create a new polyhasher instance
+var polyhasher = new Polyhasher();
+
+// Returns a HashSet<string> of 27 geohashes which encodes the multipolygon specified above
+var geohashes = polyhasher.Encode(polygon, 2, PolyhasherMode.Intersects);
+```
+
+Also see the provided [example project](https://github.com/andrerav/Geohash.PolyHasher/tree/main/src/Geohash.Polyhasher/Geohash.Polyhasher.Example).
+
 
 ## API documentation
 
