@@ -21,6 +21,10 @@ This library is useful if you are working with spatial data and need to make com
 
 _TODO_
 
+## API documentation
+
+[The full API documentation is available here](https://github.com/andrerav/Geohash.PolyHasher/tree/main/src/Geohash.Polyhasher/Geohash.Polyhasher)
+
 # Command line quickstart
 
 _TODO_
