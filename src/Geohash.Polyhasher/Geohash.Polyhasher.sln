@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geohash.Polyhasher", "Geohash.Polyhasher\Geohash.Polyhasher.csproj", "{0B5B33D7-576A-4D79-93BD-0665C5AE4143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geohash.Polyhasher.CLI", "Geohash.Polyhasher.CLI\Geohash.Polyhasher.CLI.csproj", "{16110E78-F8DE-464E-B245-572A9154B550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geohash.Polyhasher.CLI", "Geohash.Polyhasher.CLI\Geohash.Polyhasher.CLI.csproj", "{16110E78-F8DE-464E-B245-572A9154B550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geohash.Polyhasher.Example", "Geohash.Polyhasher.Example\Geohash.Polyhasher.Example.csproj", "{D8447A38-8C1F-4A37-A30D-700F52637236}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{16110E78-F8DE-464E-B245-572A9154B550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16110E78-F8DE-464E-B245-572A9154B550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16110E78-F8DE-464E-B245-572A9154B550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8447A38-8C1F-4A37-A30D-700F52637236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8447A38-8C1F-4A37-A30D-700F52637236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8447A38-8C1F-4A37-A30D-700F52637236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8447A38-8C1F-4A37-A30D-700F52637236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
