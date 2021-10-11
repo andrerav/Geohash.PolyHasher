@@ -14,6 +14,8 @@ Geohash.Polyhasher is a tool that can convert geometries such as linestrings, po
 
 To understand what this library does, please look at this illustration that shows the input and output from this library:
 
+_TODO_
+
 # What can you do with Polyhasher?
 This library is useful if you are working with spatial data and need to make computations such as finding all points within a polygon, but without using a spatial database and still retaining excellent performance. By encoding geometries as geohashes and using a prefix tree for lookup, you can achieve performance that is on par or better than using geospatial databases. 
 
