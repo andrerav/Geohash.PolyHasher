@@ -7,7 +7,7 @@ Geohash.Polyhasher is a .NET library and command line tool that converts geometr
 | Package | Link | Description |
 | ------- | ---- | ----------- |
 | Geohash.Polyhasher | [![image](https://img.shields.io/nuget/v/Geohash.Polyhasher.svg)](https://www.nuget.org/packages/Geohash.Polyhasher/) | Use this package to install Polyhasher as a library in your C#/.NET project. |
-| Geohash.GeoRaptor.CLI | [![image](https://img.shields.io/nuget/v/Geohash.Polyhasher.CLI.svg)](https://www.nuget.org/packages/Geohash.Polyhasher.CLI/) | Use this package to install Polyhasher as a dotnet command line tool (see [CLI quickstart](#command-line-quickstart) below). You can install this tool using the command `dotnet tool install --global Geohash.Polyhasher.CLI`. |
+| Geohash.Polyhasher.CLI | [![image](https://img.shields.io/nuget/v/Geohash.Polyhasher.CLI.svg)](https://www.nuget.org/packages/Geohash.Polyhasher.CLI/) | Use this package to install Polyhasher as a dotnet command line tool (see [CLI quickstart](#command-line-quickstart) below). You can install this tool using the command `dotnet tool install --global Geohash.Polyhasher.CLI`. |
 
 # Description
 Geohash.Polyhasher is a tool that can convert geometries such as linestrings, polygons, multipolygons and more to well-optimized sets of geohashes. If you are not familiar with the concept of geohashing, then you may want to familiarize yourself with the concept of geohashes first, and then come back here.
